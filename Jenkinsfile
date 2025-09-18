@@ -17,7 +17,7 @@ steps{
 sh "mvn compile"
 }
 }
-stage('build'){
+stage('Build'){
 steps{
 sh "mvn package"
 }
