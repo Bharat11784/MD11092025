@@ -19,9 +19,7 @@ sh "mvn compile"
 }
 stage('Build'){
 steps{
-dir('bharat'){
 sh "mvn package"
-}
 }
 }
 }
