@@ -1,6 +1,8 @@
 pipeline{
 
-agent any
+agent {
+ label 'production'
+}
 tools{
 maven 'maven'
 jdk 'java-11'
